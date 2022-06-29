@@ -27,7 +27,7 @@ static List<int> QuickSort(List<int> list)
     List<int>? greater = list.Where(x => x > pivot).ToList();
 
     //Recursively call sort and place them in order
-    // [less than pivot, pivot, greater than pivot]
+    // return new array [less than pivot, pivot, greater than pivot]
     //I hadn't seen this in C# before. In python you just concatenate the arrays. Here I had to get funky
     newList.AddRange(QuickSort(less));
     newList.Insert(newList.Count, pivot);
