@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySort\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionWithStack", "RecursionWithStack\RecursionWithStack.csproj", "{4C31230C-D048-4FA9-A43E-C1E5A1500103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch_Recursive", "BinarySearch_Recursive\BinarySearch_Recursive.csproj", "{0F9B5FA4-42DB-4435-BD5E-399E9C4E0997}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchRecursive", "BinarySearch_Recursive\BinarySearchRecursive.csproj", "{0F9B5FA4-42DB-4435-BD5E-399E9C4E0997}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
