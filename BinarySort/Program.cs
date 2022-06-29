@@ -5,7 +5,7 @@ var myList = new List<int> { 1, 3, 5, 7, 9, 15, 20, 25, 26, 29, 30, 32, 33, 39, 
 Console.WriteLine(BinarySearch(myList, 3));
 Console.ReadLine();
 
-static int BinarySearch(List<int> unsorted)
+static int BinarySearch(List<int> unsorted, int item)
 {
     var low = 0;
     var high = unsorted.Count() - 1;
