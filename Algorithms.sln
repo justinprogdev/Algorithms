@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySort\BinarySearch.csproj", "{F9E32C7F-6094-42BC-9D0C-2920BD858809}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionWithStack", "RecursionWithStack\RecursionWithStack.csproj", "{4C31230C-D048-4FA9-A43E-C1E5A1500103}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F9E32C7F-6094-42BC-9D0C-2920BD858809}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9E32C7F-6094-42BC-9D0C-2920BD858809}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9E32C7F-6094-42BC-9D0C-2920BD858809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C31230C-D048-4FA9-A43E-C1E5A1500103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C31230C-D048-4FA9-A43E-C1E5A1500103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C31230C-D048-4FA9-A43E-C1E5A1500103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C31230C-D048-4FA9-A43E-C1E5A1500103}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
