@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySort", "BinarySort\BinarySort.csproj", "{F9E32C7F-6094-42BC-9D0C-2920BD858809}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySort\BinarySearch.csproj", "{F9E32C7F-6094-42BC-9D0C-2920BD858809}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
