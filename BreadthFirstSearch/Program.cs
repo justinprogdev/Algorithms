@@ -18,6 +18,8 @@ hashTable.Add("johnny", new string[] {});
 
 //2. Make a queue to keep order of which people/paths we have checked. 
 // in this case we can use a queue of string, as we're only temp storing the name.
+
+// O(V + E)
 var searchQueue = new Queue<string>();
 searchQueue.Enqueue("you");
 
