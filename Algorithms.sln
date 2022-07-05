@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionWithStack", "Recur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchRecursive", "BinarySearch_Recursive\BinarySearchRecursive.csproj", "{0F9B5FA4-42DB-4435-BD5E-399E9C4E0997}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "QuickSort\QuickSort.csproj", "{B8B5F8F8-FCE8-4567-A8C6-DB509756DC0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSort", "QuickSort\QuickSort.csproj", "{B8B5F8F8-FCE8-4567-A8C6-DB509756DC0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
