@@ -13,15 +13,15 @@
 
 //calculate the final path
 
+using DijkstrasAlgorithm;
 using System.Data;
 
-var graph = new Dictionary<string, Dictionary<string,int>>();
+var graph = new Graph();
+graph.AddNode("start", "a", 6);
+graph.AddNode("start", "b", 2);
+graph.AddNode("a", "fin", 1);
+graph.AddNode("b", "a", 3);
+graph.AddNode("fin");
 
-var startNode = new Dictionary<string, int>();
-startNode.Add("a", 6);
-startNode.Add("b", 2);
+var costs = new Dictionary<string, float>();
 
-graph.Add("start",startNode);
-Console.WriteLine(graph["start"]["a"]);
-Console.WriteLine(graph["start"]["b"]);
-Console.ReadLine();
