@@ -8,13 +8,13 @@ var hashTable = new Dictionary<string, string[]>();
 
 //1. Make a graph from adding relationships to a dictionary/hash table
 hashTable.Add("you", new string[] { "alice", "bob", "claire" });
-hashTable.Add("bob", new string[] { "anuj", "peggy"});
+hashTable.Add("bob", new string[] { "anuj", "peggy" });
 hashTable.Add("alice", new string[] { "peggy" });
 hashTable.Add("claire", new string[] { "thom", "johnny" });
-hashTable.Add("anuj", new string[] {});
-hashTable.Add("peggy", new string[] {});
-hashTable.Add("thom", new string[] {});
-hashTable.Add("johnny", new string[] {});
+hashTable.Add("anuj", new string[] { });
+hashTable.Add("peggy", new string[] { });
+hashTable.Add("thom", new string[] { });
+hashTable.Add("johnny", new string[] { });
 
 //2. Make a queue to keep order of which people/paths we have checked. 
 // in this case we can use a queue of string, as we're only temp storing the name.
@@ -24,7 +24,7 @@ var searchQueue = new Queue<string>();
 searchQueue.Enqueue("you");
 
 
-while( searchQueue.Count > 0)
+while (searchQueue.Count > 0)
 {
     var user = searchQueue.Dequeue();
     if (IsUserMangoSeller(user))
@@ -33,11 +33,11 @@ while( searchQueue.Count > 0)
     }
     else
     {
-        foreach(var u in hashTable[user])
+        foreach (var u in hashTable[user])
         {
             searchQueue.Enqueue(u);
         }
-        
+
     }
 }
 
