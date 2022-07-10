@@ -55,6 +55,8 @@ while (processed.Count < costs.Count())
 
 }
 
+Console.WriteLine(lowestCostNode.Key + lowestCostNode.Value.ToString());
+
 static KeyValuePair<string, float> FindLowestCost(Dictionary<string, float> costs, List<KeyValuePair<string, float>> processed)
 {
     var lowestCost = float.PositiveInfinity;
