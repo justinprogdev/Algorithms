@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchRecursive", "Bi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSort", "QuickSort\QuickSort.csproj", "{B8B5F8F8-FCE8-4567-A8C6-DB509756DC0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreadthFirstSearch", "BreadthFirstSearch\BreadthFirstSearch.csproj", "{886D4941-2802-4381-A7A1-1A8085D2D8BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreadthFirstSearchGraph", "BreadthFirstSearch\BreadthFirstSearchGraph.csproj", "{886D4941-2802-4381-A7A1-1A8085D2D8BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
